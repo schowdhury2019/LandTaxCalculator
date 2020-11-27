@@ -17,7 +17,8 @@ void checkMembers(Buyer& b) {
 	cout << "Currently owns: " << b.getCurrentlyOwns() << endl;
 	cout << "Number of properties: " << b.getNumberOfProperties() << endl;
 	cout << "Uses property for business: " << b.getUsesProperty() << endl;
-	cout << "Budget: " << b.getPrice() << endl;
+	cout.precision(2);
+	cout << "Budget: " << fixed << b.getPrice() <<  endl;
 	cout << endl;
 }
 

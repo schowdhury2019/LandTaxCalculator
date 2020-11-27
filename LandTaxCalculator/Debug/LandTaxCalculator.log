@@ -1,4 +1,5 @@
 ﻿  functions.cpp
-  main.cpp
-  Generating Code...
-  LandTaxCalculator.vcxproj -> D:\Users\Sunny\Code\LandTaxCalculator\Debug\LandTaxCalculator.exe
+D:\Users\Sunny\Code\LandTaxCalculator\LandTaxCalculator\functions.cpp(24,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Users\Sunny\Code\LandTaxCalculator\LandTaxCalculator\functions.cpp(24,11): error C2146: syntax error: missing ';' before identifier 'inputData'
+D:\Users\Sunny\Code\LandTaxCalculator\LandTaxCalculator\functions.cpp(24,154): error C2143: syntax error: missing ';' before '{'
+D:\Users\Sunny\Code\LandTaxCalculator\LandTaxCalculator\functions.cpp(24,154): error C2447: '{': missing function header (old-style formal list?)
