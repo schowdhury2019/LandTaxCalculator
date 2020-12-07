@@ -1,15 +1,13 @@
-#include <iostream>
+﻿#include <iostream>
 #include <string>
 
 #include "functions.h"
 #include "Buyer.h"
 
 
-template<class C>
-double calculateLandTax(Buyer& b, double price, C category) {
-	// Need to be completed - Functional pointer or Functor?
 
-}
+
+
 
 void checkMembers(Buyer& b) {
 	cout << endl;
@@ -19,6 +17,7 @@ void checkMembers(Buyer& b) {
 	cout << "Uses property for business: " << b.getUsesProperty() << endl;
 	cout.precision(2);
 	cout << "Budget: " << fixed << b.getPrice() <<  endl;
+	cout << "Stamp Duty Land Tax: " << b.getTaxToPay() << endl;
 	cout << endl;
 }
 

@@ -13,6 +13,7 @@ private:
 	bool uses_property_for_business;
 	unsigned int number_of_properties_owned;
 	double budget;
+	double tax_to_pay;
 
 public:
 	Buyer();
@@ -23,6 +24,8 @@ public:
 	unsigned int getNumberOfProperties() const;
 	string getName() const;
 	double getPrice() const;
+	double getRate() const;
+	double getTaxToPay() const;
 };
 
 #endif
