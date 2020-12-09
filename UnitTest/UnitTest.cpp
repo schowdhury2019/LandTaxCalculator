@@ -1,6 +1,8 @@
 #include "pch.h"
 #include "CppUnitTest.h"
 #include "../LandTaxCalculator/functions.h"
+#include "../LandTaxCalculator/Buyer.h"
+
 
 
 
@@ -14,7 +16,15 @@ namespace UnitTest
 		
 		TEST_METHOD(TestMethod1)
 		{
-			Assert::AreEqual(2, add(5,1));
+			Buyer b = initialize();
+			checkMembers(b);
+			
+
+
+
+
+			
+
 		}
 	};
 }
